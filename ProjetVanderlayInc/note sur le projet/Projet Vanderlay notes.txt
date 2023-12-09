@@ -1,0 +1,10 @@
+Projet Vanderlay
+
+Objectif : créer un site web pour l'entreprise Vanderlay
+
+Code : Html et CSS
+
+But du projet : apprendre a se familiarisé avec le coding en html et css (Éxercice)
+
+Personne ayant travaillé sur le projet : Mathis Cayouette
+
