@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Balises meta pour la configuration du document -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titre de la page -->
+    <title>Boutique Latex</title>
+    <!-- Lien vers la feuille de style externe -->
+    <link rel="stylesheet" href="../css/Vanderlay.css">
+</head>
+<body>
+    <!-- En-tête de la page -->
+    <header>
+        <!-- Logo de Vanderlay -->
+        <img src="../pictures/logo.png" alt="logo Vanderlay">
+        <!-- Titre principal -->
+        <h1>Vanderlay</h1>
+        <!-- Navigation principale -->
+        <nav>
+            <ul>
+                <!-- Liens vers les pages principales -->
+                <li><a href="../html/VanderlayMain.html">Accueil</a></li>
+                <li><a href="../html/VanderlayProducts.html">Produits</a></li>
+                <li><a href="../html/VanderlayPanier.html">Panier</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section "Panier" -->
+    <section id="cart">
+        <h2>Votre panier</h2>
+        <!-- Liste des articles dans le panier -->
+        <ul id="cart-items"></ul>
+        <!-- Affichage du total du panier -->
+        <p id="total">Total: 0 €</p>
+    </section>
+
+    <!-- Articles du panier (affichés si le panier est vide) -->
+    <article class="basket">
+        <h3>Votre panier est vide</h3>
+        <p>maganiser aujourd'hui sur Vanderlay</p>
+        <a href="../html/VanderlayProducts.html">Produits Vanderlay</a>
+    </article>
+
+    <!-- Informations sur le panier et lien vers la page de connexion -->
+    <article class="basket">
+        <div>
+            <p>Le prix et la disponibilité des articles sur Amazon.ca sont sujets à changement. <br> Le panier est un endroit temporaire où stocker une liste de vos articles et reflète le prix le plus récent de chaque article. <br> Avez-vous une carte cadeau ou un code promotionnel ? Nous vous demanderons de saisir votre code de réclamation au moment du paiement.</p>
+        </div>
+        <div>
+            <p>inscrivez vous avec votre compte Vanderlay en suivant le lien ci-dessous</p>
+            <a href="../html/VanderlaySignIn.html">Sign In Here</a>
+        </div>
+    </article>
+
+    <!-- Pied de page -->
+    <footer>
+        <!-- Contenu du pied de page -->
+        <div class="footer-content">
+            <!-- Section "A propos de Vanderlay" -->
+            <div class="footer-section about">
+                <h2>A propos de Vanderlay</h2>
+                <p>Texte descriptif sur Vanderlay et la boutique de latex.</p>
+            </div>
+            <!-- Section "Contactez-nous" -->
+            <div class="footer-section contact">
+                <h2>Contactez-nous</h2>
+                <p>Email : info@vanderlay.com</p>
+                <p>Téléphone : 396-590-4539</p>
+            </div>
+            <!-- Section "Liens rapides" -->
+            <div class="footer-section links">
+                <h2>Liens rapides</h2>
+                <ul>
+                    <!-- Liens vers différentes pages -->
+                    <li><a href="../html/VanderlayContacts.html">Contacts</a></li>
+                    <li><a href="../html/VanderlayAboutUs.html">About Us</a></li>
+                    <li><a href="../html/VanderlayMentionsLegales.html">Mentions légales</a></li>
+                    <li><a href="../html/VanderlayPandC.html">Politique de confidentialité</a></li>
+                    <li><a href="../html/VanderlayInfoAccounts.html">Comment s'inscrire</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Bas du pied de page -->
+        <div class="footer-bottom">
+            <p>&copy; 2023 Vanderlay</p>
+        </div>
+    </footer>
+</body>
+</html>
